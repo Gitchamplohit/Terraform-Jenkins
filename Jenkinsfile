@@ -1,5 +1,5 @@
 pipeline {
-    agent any,
+    agent any
     parameter {
         choice(name: 'ACTION', choices: ['apply', 'destroy'], description: 'Select Terraform action')
         choice(name: 'CONFIRM', choices: ['no', 'yes'], description: 'Confirm action')
