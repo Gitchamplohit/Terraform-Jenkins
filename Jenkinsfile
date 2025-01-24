@@ -13,7 +13,7 @@ pipeline {
         }
         stage 'checkout code'{
             steps {
-                sh 'git clone url'
+                sh 'git clone https://github.com/Gitchamplohit/Terraform-Jenkins.git'
             }
         }
         stage 'initiate tf'{
